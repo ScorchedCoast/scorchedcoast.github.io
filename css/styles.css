@@ -3,8 +3,8 @@
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-#container{
-background:url('../images/BACKGROUNDSb.png');background-position:top;background-repeat:no-repeat;background-size:auto;image-rendering:-webkit-optimize-contrast;background-attachment:fixed;
+body{
+background-image:url('../images/BACKGROUNDSb.png');background-position:top;background-repeat:no-repeat;background-size:auto;image-rendering:-webkit-optimize-contrast;background-attachment:scroll;width:1400px;
 }
 }
 @supports(-webkit-text-security:circle){ 
