@@ -3,12 +3,12 @@
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-#content{
-background-image:url('../images/BACKGROUNDSb.png');background-position:top;background-repeat:no-repeat;background-size:auto;image-rendering:-webkit-optimize-contrast;background-attachment:scroll;width:1400px;
-}
 html{
-opacity:.77;
+background-image:url(../images/BACKGROUNDSb.png);background-position:top;background-repeat:no-repeat;background-size:auto;image-rendering:-webkit-optimize-contrast;background-attachment: scroll !important;
 }
+
+
+
 }
 @supports(-webkit-text-security:circle){ 
 h1{
@@ -33,7 +33,7 @@ html,body,#container{
 }
 }
 html,body,#container{
--moz-backface-visibility:hidden;-webkit-backface-visibility:hidden;backface-visibility:hidden;transform:rotateX(0deg);transform:translate3d(0,0,0);transition:all.2sease-out;
+-moz-backface-visibility:hidden;transform:rotateX(0deg);transform:translate3d(0,0,0);
 }
 #star:hover{
 animation-name:rotate;animation-duration:12s;animation-iteration-count:infinite;animation-timing-function:linear
