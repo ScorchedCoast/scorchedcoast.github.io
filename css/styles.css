@@ -196,3 +196,7 @@ color:white
 .bordered-box{
 border:30px solid pink;height:40vh;border-image:url(../images/borderbox1.png);border-image-slice:20;border-image-width:20;border-image-outset:1;border-image-repeat:round;
 }
+html {
+    visibility: visible;
+    opacity: 1;
+}
