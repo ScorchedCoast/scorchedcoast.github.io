@@ -3,8 +3,10 @@
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-html{
-background-image:url(../images/BACKGROUNDSb.png);background-position:top;background-repeat:no-repeat;background-size:auto;image-rendering:-webkit-optimize-contrast;background-attachment: scroll !important;
+#container{
+  background: url(../images/BACKGROUNDSb.png);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 
