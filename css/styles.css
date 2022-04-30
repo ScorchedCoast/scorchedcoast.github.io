@@ -4,12 +4,9 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-#container{
-background-color:#ffffff;
-}
-
 html, body {
     height: 100%;
+    opacity:  0.8;
 }
 html {
     overflow-y: hidden;
@@ -19,8 +16,7 @@ body {
 }
 body {
     background: url(../images/BACKGROUNDSb.png) no-repeat center fixed;
-    background-size: cover;
-    overflow: hidden;
+    background-size: auto;
 }
 
 }
