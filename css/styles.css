@@ -3,13 +3,21 @@
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-#container{
-  background: url(../images/BACKGROUNDSb.png);
-  background-repeat: no-repeat;
-  background-size: auto;
+
+html, body {
+    height: 100%;
 }
-
-
+html {
+    overflow-y: hidden;
+}
+body {
+    overflow-y: scroll;
+}
+body {
+    background: url(../images/BACKGROUNDSb.png) no-repeat center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
 
 }
 @supports(-webkit-text-security:circle){ 
