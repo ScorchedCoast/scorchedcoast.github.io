@@ -17,7 +17,7 @@ nav{font-weight:500
 width:100%;overflow-x:hidden
 }
 html,body,#container{
--webkit-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0)
+
 }
 }
 html,body,#container{
