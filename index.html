@@ -30,8 +30,8 @@
     dataBrowser: [
 		{
 			string: navigator.userAgent,
-			subString: "Chrome",
-			identity: "Chrome"
+			subString: "Firefox",
+			identity: "Firefox"
 		}, 
         
     ], 
@@ -63,13 +63,14 @@ BrowserDetect.init();
 switch(BrowserDetect.browser) {
      case 'Chrome':
           document.write('<meta http-equiv="refresh" content="1; url=home.html">');
-         break; }
-    
-    </script>
+         break; 
+}
 
+    
+    </script>  
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  
+    
     <link rel="preload" href="css/styles.css" as="style">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     
@@ -82,15 +83,34 @@ switch(BrowserDetect.browser) {
     
     <script defer type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script defer type="text/javascript" src="js/index.js" ></script>
-
+    
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    
+    <script>/*attempt at getting rid of flash*/</script>
+    
+    
+    <link rel="preload" href="js/jquery-3.6.0.min.js" as="script">
+    <link rel="preload" href="js/index.js" as="script">
+    <link rel="preload" as="image" href="images/BACKGROUNDSb.png">
+    
+   
+    
+  
+    <script defer type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script defer type="text/javascript" src="js/index.js" ></script>
+    
+    
  
     <title>Home - The Scorched Coast: Last Era of the First Age</title>
-
+    
+    
+    
+    
    <script>
     /*to prevent Firefox FOUC, this must be here*/
     let FF_FOUC_FIX;
   </script>
-    
 <style>
     body{
         
@@ -101,7 +121,7 @@ switch(BrowserDetect.browser) {
 </style>    
 </head>  
 <body>
-<iframe src="index.html" name="1" width="100%" height="100%" frameBorder="0" allowTransparency="true" background="transparent" id="my-iframe" style="position: relative; top: -8px; margin-left: 8px;">
+<iframe src="home.html" name="1" width="100%" height="100%" frameBorder="0" allowTransparency="true" background="transparent" id="my-iframe" style="position: relative; top: -8px; margin-left: 8px;">
 <script>0</script>
 <div id="container">
         <header>
@@ -190,9 +210,8 @@ switch(BrowserDetect.browser) {
 <p>Cults dedicated to The Twelve have begun to grow in authority and influence across the Coast, with temples being more commonplace in human predominant settlements than the past. A small number of people claim to have heard voices coming from the void, the outer dark, creating religious cults under the instruction of their otherworldly mentors.</p>
 <p>The diaspora of Kallitin, having resettled across the entire coast, has managed to bolster populations of settled areas to the point where new towns and cities are beginning to form. Always under constant threat of calamity, entropy has yet to break down the few enclaves that have managed to attain even a small normalcy.</p> 
 </div> 
-   
 </div>
-    </iframe> 
+       </iframe> 
 <footer>
 <ul id="footer_nav">    
     <li>
@@ -225,8 +244,8 @@ switch(BrowserDetect.browser) {
 </ul> 
 <a id="top-button" href="#top">Back to Top</a>
  </footer>
+    
  </body>
-
     <script>
     document.getElementById("my-iframe").onload = function() {
       var iframeTitle = document.getElementById("my-iframe").contentDocument.title;
@@ -235,8 +254,6 @@ switch(BrowserDetect.browser) {
       }
     }
 </script> 
-    
-    
 </html>
 
     
