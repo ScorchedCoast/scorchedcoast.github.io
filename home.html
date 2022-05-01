@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<iframe src="index.html" style="position: absolute; width: 0px; height: 0px; border:0;"></iframe>
 <html lang="en">
 <head>
 
@@ -16,48 +15,18 @@
     <link rel="preload" href="js/index.js" as="script">
     <link rel="preload" as="image" href="images/BACKGROUNDSb.png">
     
-   
-     <link rel="preload" href="index.html" as="document">
-     <link rel="preload" href="lore/index.html" as="document">
-     <link rel="preload" href="factions/index.html" as="document">
-     <link rel="preload" href="events/index.html" as="document">
-     <link rel="preload" href="equipment/index.html" as="document">
-     <link rel="preload" href="character/index.html" as="document">
-     <link rel="preload" href="world/index.html" as="document">
-    
-    
-    
-
     <script defer type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script defer type="text/javascript" src="js/index.js" ></script>
-    <script> (function () {
 
-      /*
-          1. Inject CSS which makes iframe invisible
-      */
-    
-    var div = document.createElement('div'),
-        ref = document.getElementsByTagName('base')[0] || 
-              document.getElementsByTagName('script')[0];
-
-    div.innerHTML = '&shy;<style> iframe { visibility: hidden; } </style>';
-
-    ref.parentNode.insertBefore(div, ref);
-
-        
-    /*
-        2. When window loads, remove that CSS, 
-           making iframe visible again
-    */
-    
-    window.onload = function() {
-        div.parentNode.removeChild(div);
-    }
-    
-})();
-    </script>
  
     <title>Home - The Scorched Coast: Last Era of the First Age</title>
+    
+    
+<script type="text/javascript">
+  parent.document.getElementById("my-iframe").style.visibility = "hidden";
+</script>
+    
+    
     
    <script>
     /*to prevent Firefox FOUC, this must be here*/
@@ -73,7 +42,7 @@
 </style>    
 </head>  
 <body>
-<iframe src="index.html" name="1" width="100%" height="100%" frameBorder="0" allowTransparency="true" background="transparent" id="my-iframe">
+<iframe src="index.html" name="1" width="100%" height="100%" frameBorder="0" allowTransparency="true" background="transparent" id="my-iframe" onload="this.style.visibility='visible';">
 <script>0</script>
 <div id="container">
         <header>
