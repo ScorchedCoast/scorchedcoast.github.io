@@ -1,73 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script type="text/javascript"> var BrowserDetect = {
-         init: function () {
-        this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
-        this.version = this.searchVersion(navigator.userAgent)
-            || this.searchVersion(navigator.appVersion)
-            || "an unknown version";
-        this.OS = this.searchString(this.dataOS) || "an unknown OS";
-    },
-    searchString: function (data) {
-        for (var i=0;i<data.length;i++)    {
-            var dataString = data[i].string;
-            var dataProp = data[i].prop;
-            this.versionSearchString = data[i].versionSearch || data[i].identity;
-            if (dataString) {
-                if (dataString.indexOf(data[i].subString) != -1)
-                    return data[i].identity;
-            }
-            else if (dataProp)
-                return data[i].identity;
-        }
-    },
-    searchVersion: function (dataString) {
-        var index = dataString.indexOf(this.versionSearchString);
-        if (index == -1) return;
-        return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
-    },
-    dataBrowser: [
-		{
-			string: navigator.userAgent,
-			subString: "Firefox",
-			identity: "Firefox"
-		}, 
-        
-    ], 
-      dataOS : [
-        {
-            string: navigator.platform,
-            subString: "Win",
-            identity: "Windows"
-        },
-        {
-            string: navigator.platform,
-            subString: "Mac",
-            identity: "Mac"
-        },
-        {
-               string: navigator.userAgent,
-               subString: "iPhone",
-               identity: "iPhone/iPod"
-        },
-        {
-            string: navigator.platform,
-            subString: "Linux",
-            identity: "Linux"
-        }
-    ]
-
-};
-BrowserDetect.init();
-switch(BrowserDetect.browser) {
-     case 'Chrome':
-          document.write('<meta http-equiv="refresh" content="1; url=index.html">');
-         break; 
-}
-
-    
-    </script>  
+     
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
@@ -111,17 +45,8 @@ switch(BrowserDetect.browser) {
     /*to prevent Firefox FOUC, this must be here*/
     let FF_FOUC_FIX;
   </script>
-<style>
-    body{
-        
-    }    
-    html {
-        overflow: hidden;
-    }
-</style>    
 </head>  
 <body>
-<iframe src="home.html" name="1" width="100%" height="100%" frameBorder="0" allowTransparency="true" background="transparent" id="my-iframe" style="position: relative; top: -8px; margin-left: 8px;">
 <script>0</script>
 <div id="container">
         <header>
@@ -211,7 +136,7 @@ switch(BrowserDetect.browser) {
 <p>The diaspora of Kallitin, having resettled across the entire coast, has managed to bolster populations of settled areas to the point where new towns and cities are beginning to form. Always under constant threat of calamity, entropy has yet to break down the few enclaves that have managed to attain even a small normalcy.</p> 
 </div> 
 </div>
-       </iframe> 
+   
 <footer>
 <ul id="footer_nav">    
     <li>
@@ -246,14 +171,7 @@ switch(BrowserDetect.browser) {
  </footer>
     
  </body>
-    <script>
-    document.getElementById("my-iframe").onload = function() {
-      var iframeTitle = document.getElementById("my-iframe").contentDocument.title;
-      if (document.title != iframeTitle) {
-        document.title = iframeTitle;
-      }
-    }
-</script> 
+
 </html>
 
     
