@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<iframe src="index.html" style="position: absolute; width: 0px; height: 0px; border:0;"></iframe>
 <html lang="en">
 <head>
 
@@ -170,33 +171,6 @@
         document.title = iframeTitle;
       }
     }
-    
-    (function () {
-
-      /*
-          1. Inject CSS which makes iframe invisible
-      */
-    
-    var div = document.createElement('div'),
-        ref = document.getElementsByTagName('base')[0] || 
-              document.getElementsByTagName('script')[0];
-
-    div.innerHTML = '&shy;<style> iframe { visibility: hidden; } </style>';
-
-    ref.parentNode.insertBefore(div, ref);
-
-        
-    /*
-        2. When window loads, remove that CSS, 
-           making iframe visible again
-    */
-    
-    window.onload = function() {
-        div.parentNode.removeChild(div);
-    }
-    
-})();
-    
 </script> 
     
     
