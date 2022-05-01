@@ -65,6 +65,10 @@ switch(BrowserDetect.browser) {
           document.write('<meta http-equiv="refresh" content="1; url=home.html">');
          break; }
     
+document.addEventListener("scroll", function(event) {
+    var style = document.getElementById("my-iframe").style;
+    style.webkitTransform = style.webkitTransform ? "" : "scale(1)";
+});
     </script>
 
      
