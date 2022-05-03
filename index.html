@@ -34,6 +34,13 @@
 			identity: "Chrome"
 		}, 
         
+        {
+            string: navigator.vendor,
+            subString: "Apple",
+            identity: "Safari",
+            versionSearch: "Version"
+        },
+        
     ], 
       dataOS : [
         {
@@ -63,7 +70,11 @@ BrowserDetect.init();
 switch(BrowserDetect.browser) {
      case 'Chrome':
           document.write('<meta http-equiv="refresh" content="1; url=home.html">');
-         break; }
+         break;
+     case 'Safari':
+          document.write('<meta http-equiv="refresh" content="1; url=home.html">');
+          break;
+}
     
 document.addEventListener("scroll", function(event) {
     var style = document.getElementById("my-iframe").style;
