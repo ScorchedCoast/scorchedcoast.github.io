@@ -63,11 +63,14 @@ h3{
 text-align:left;padding-left:85px;font-family:stitch;-webkit-text-stroke-width:.07px;-webkit-text-stroke-color:yellow
 }
 #content{
-padding:5px;column-width:33em;text-align:justify;color:#FFF;margin-bottom:-70px;position:relative;top:-110px
+padding:5px;column-width:33em;text-align:justify;color:#FFF;margin-bottom:-70px;position:relative;top:-110px; 
 }
 #container{
-width:950px;padding:0;margin:0 auto;background-clip:border-box;background-color:#1e4aad;background-origin:padding-box;background-repeat:repeat;border:2px solid yellow;text-align:left;opacity:.77
+width:950px;padding:0;margin:0 auto;background-clip:border-box;background-color:#1e4aad;background-origin:padding-box;background-repeat:repeat;border:2px solid yellow;text-align:left;opacity:.77;
 }
+/*#container2{
+width:950px;padding:0;margin:0 auto;background-clip:border-box;background-color:rgba(30, 74, 173,.77);background-origin:padding-box;background-repeat:repeat;border:2px solid yellow;text-align:left;margin-top:5px;
+}*/
 #banner{
 background-image:url(../images/banner1.png);background-repeat:no-repeat;background-size:cover;height:195px;width:468px;margin:0 auto;border:2px solid #fdeae8;margin-top:10px
 }
@@ -89,6 +92,12 @@ list-style:none;display:flex;justify-content:center;padding-left:10px
 nav{
 margin-bottom:0;padding:55px;padding-left:80px;height:45px;position:relative;top:-57px;background-position:center;background-repeat:no-repeat;background-size:700px 85px
 }
+
+#vincini{
+ padding-left:10px;
+ padding: 25px;
+}
+
 .button1{
 display:inline-block;padding:.35em 1.2em;border:.1em solid gold;margin:0 .3em .3em 0;border-radius:.12em;box-sizing:border-box;text-decoration:none;text-align:center;background-color:black;background-position:left;font-family:stitch;font-size:.98em;color:#121bda;-webkit-text-stroke-width:.25px;-webkit-text-stroke-color:yellow;font-size:1.25em;border-radius:8px;cursor:pointer;
 }
@@ -182,7 +191,7 @@ opacity:.3
 opacity:.3
 }
 .tooltip{
-position:relative;display:inline-block;border-bottom:1px dotted black;color:yellow;cursor:pointer
+position:relative;display:inline-block;color:yellow;cursor:pointer
 }
 .tooltip .tooltiptext{
 visibility:hidden;width:500px;height:15px;background-color:#1e4aad;color:white;text-align:center;padding:8px 8px 8px 8px;position:absolute;z-index:1;bottom:150%;left:150%;margin-left:-280px;border:10px solid pink;border-image:url(../images/borderbox1.png);border-image-slice:10;border-image-width:1;border-image-outset:1;border-image-repeat:round;transition-delay:.2s

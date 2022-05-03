@@ -24,9 +24,18 @@
     /*to prevent Firefox FOUC, this must be here*/
     let FF_FOUC_FIX;
   </script>
+<style>
+
+
+
+
+
+  
+</style>
 </head>  
 <body>
 <script>0</script>
+
 <div id="container">
         <header>
             <div id="banner">
@@ -96,7 +105,7 @@
 </nav>
 <div class="content" id="content" onscroll="myFunction()">
 <h2>The Scorched Coast</h2>
-<p>The Scorched Coast is a setting contained completely within the blasted landscape of a once far more advanced society. The land is an irradiated desert where an oasis or city offers little reprieve from danger. The Scorched Coast presents the weird and unusual as mundane to its unfortunate denizens.</p>
+<p>The Scorched Coast is a setting contained completely within the blasted landscape of a once far more advanced society. The land is an irradiated desert where an oasis or city offers little reprieve from danger. The Scorched Coast presents the <span class="tooltip">weird<span class="tooltiptext">Gonzo</span></span> and unusual as mundane to its unfortunate denizens.</p>
 <p>The Scorched Coast is a campaign setting for <span class="tooltip">OSR<span class="tooltiptext">Old School Revival; Old School Renaissance; Old School Rules.</span></span> roleplaying games; featuring a heavy mechanical focus on <span class="tooltip">DCC.<span class="tooltiptext">Dungeon Crawl Classics</span></span> The game occurs on the world of <span class="tooltip">Dünya,<span class="tooltiptext">The planet of The Scorched Coast. Dünya means the land or world.</span></span> the name being known only to elves, or their forgotten records. The planet itself is a warped distortion, unknown events having rendered the world little more than an over-grown asteroid. When viewed from space, the planet takes on a rectangular shape. The top and bottom faces of the planet are able to sustain living populations. Inhabitants of either side possesses little to no knowledge of the other. Despite the irregular appearance of Dünya, the planetoid is organic and not of artificial composition or construction.</p>
 <p>Current life on the Coast has been shaped by a historical event of unfathomable proportions: The Great Burn. Ramifications of this little understood event have forever twisted a normal society into a land filled with mutants praying to an atomic god, dead cities lost to time, crazed monsters, and zealous cultists.</p>
 <p>At an undeterminable past point in time, an event known only as The Great Burn ravaged what is now The Scorched Coast. The cataclysm’s placement and occurrence in history’s chronology is unknown, the oldest surviving calendars and dating records are never older than several hundred years. Astrologers and scholars have since created a ‘modern’ calendar whose era is defined by the amount of years that have elapsed since the occurrence of The Great Burn. AB years are all counted from the estimated happening of the cataclysm. Studious thought places approximately 486 years prior to the present day from The Great Burn; few beings or peoples know the nature of this event, its cause, or the magnitude of its destruction.</p>
@@ -114,9 +123,22 @@
 <p>Cults dedicated to The Twelve have begun to grow in authority and influence across the Coast, with temples being more commonplace in human predominant settlements than the past. A small number of people claim to have heard voices coming from the void, the outer dark, creating religious cults under the instruction of their otherworldly mentors.</p>
 <p>The diaspora of Kallitin, having resettled across the entire coast, has managed to bolster populations of settled areas to the point where new towns and cities are beginning to form. Always under constant threat of calamity, entropy has yet to break down the few enclaves that have managed to attain even a small normalcy.</p> 
 </div> 
-   
 </div>
-    
+<!-- 
+<span class="tooltip">####<span class="tooltiptext">####</span></span>
+
+  
+   
+<div id="container2">
+   
+
+<img src="images/Vincini.png" height="300" width="250" id="vincini" onclick="changeImage(element)">
+-->
+
+
+
+
+   
 <footer>
 <ul id="footer_nav">    
     <li>
@@ -149,11 +171,23 @@
 </ul> 
 <a id="top-button" href="#top">Back to Top</a>
  </footer>
+    
+<script>
+
+var images = ["images/Vincini.png", "images/vincini2.png",]
+
+var imgState = 0;
+
+var imgTag = document.getElementById("vincini");
+
+imgTag.addEventListener("click", function (event) {
+  imgState = (++imgState % images.length);
+  event.target.src = images[imgState];
+});
+    
+</script>    
+
  </body>
-
-
-    
-    
 </html>
 
     
