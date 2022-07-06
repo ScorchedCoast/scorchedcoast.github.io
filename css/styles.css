@@ -72,7 +72,7 @@ width:950px;padding:0;margin:0 auto;background-clip:border-box;background-color:
 width:950px;padding:0;margin:0 auto;background-clip:border-box;background-color:rgba(30, 74, 173,.77);background-origin:padding-box;background-repeat:repeat;border:2px solid yellow;text-align:left;margin-top:5px;
 }*/
 #banner{
-background-image:url(../images/banner222.png);background-repeat:no-repeat;background-size:cover;/*height:195px;width:468px;*/ margin:0 auto;border:2px solid #fdeae8;margin-top:10px
+background-image:url(../images/banner2222.png);background-repeat:no-repeat;background-size:cover;/*height:195px;width:468px;*/ margin:0 auto;/*border:2px solid #fdeae8;*/ margin-top:10px
 }
 p{
 width:33em;text-align:justify;padding-left:85px
