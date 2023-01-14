@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body{
+         width:950px;
+         margin-left:auto;
+    margin-right:auto;
+    }
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  opacity:1 !important;
+}   
+     
+#p1 {
+    background-image: url( '../images/NewCharacter1.png' );
+    background-size: 124px 48px;
+    height: 48px;  
+    width: 124px;
+padding: 0;
+border: none;
+   
+
+
+}
+    
+#p1:active{
+  background-image: url( '../images/NewCharacterselect3.png' ); 
+     background-size: 100%; /* To fill the dimensions of container (button), or */
+    background-size: 124px 48px; /* to specify dimensions explicitly */
+    right: 3px;
+    position: relative;
+  
+
+
+}
+    
+#p3 {
+    background-image: url( '../images/Copy.png');
+    background-size: 124px 48px;
+    height: 48px;  
+    width: 124px;
+padding: 0;
+border: none;
+
+
+
+}
+    
+#p3:active{
+  background-image: url( '../images/copy1.png' ); 
+     background-size: 100%; /* To fill the dimensions of container (button), or */
+    background-size: 124px 48px; /* to specify dimensions explicitly */
+    right: 3px;
+    position: relative;
+
+}
+    
+#p4 {
+    background-image: url( '../images/black.png' );
+    background-size: 124px 48px;
+    height: 48px;  
+    width: 124px;
+padding: 0;
+border: none;
+  
+
+
+}
+
+#p4:active{
+  background-image: url( '../images/black1.png' ); 
+     background-size: 100%; /* To fill the dimensions of container (button), or */
+    background-size: 124px 48px; /* to specify dimensions explicitly */
+    right: 3px;
+    position: relative;
+
+}
+   
+    
+    
+#p2 {
+    background-image: url( '../images/Export.png');
+    background-size: 124px 48px;
+    height: 48px;  
+    width: 124px;
+padding: 0;
+border: none;
+ 
+
+
+}
+    
+#p2:active{
+  background-image: url( '../images/Export1.png'); 
+     background-size: 100%; /* To fill the dimensions of container (button), or */
+    background-size: 124px 48px; /* to specify dimensions explicitly */
+    right: 3px;
+    position: relative;
+ 
+}
+   
+
+</style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <link rel="preload" href="../css/styles.css" as="style">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    
+    <script>/*attempt at getting rid of flash*/</script>
+    
+    
+    <link rel="preload" href="../js/jquery-3.6.0.min.js" as="script">
+    <link rel="preload" href="../js/index.js" as="script">
+    <link rel="preload" as="image" href="../images/BACKGROUNDSb.png">
+    
+   
+  
+    <script defer type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+    <script defer type="text/javascript" src="../js/index.js" ></script>
+    
+    
+    
+<title>The Scorched Coast // Level 0 Character Generator - Random</title>
+    
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="manifest" href="../images/site.webmanifest">
+    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+   <script>
+    /*to prevent Firefox FOUC, this must be here*/
+    let FF_FOUC_FIX;
+  </script>
+</head>
+<body>
+    <script>0</script>
+    <div id="container">
+        <header>
+            <div id="banner">
+            </div>
+            <div id="logo">
+                <a href="../home.html" class="transition">
+                    <img src="../images/2000px-star_polygon_12-5-svg3.png" alt="twelve pointed star">
+                </a>
+                <p>The Scorched Coast</p>
+            </div>
+        </header> 
+<br>
+<br>
+
+
+
+
+<center><h1 id="title" style="color:white">Level 0 Character Generator</h1></center>
+<nav>
+    <div class="dropdown">    
+        <button id="button1" class="button1 transition" onclick="location.href='../setting/index.html'">
+           
+        </button> 
+        <div class="dropdown-content">
+            <a href="occultism-101/what-is-occultism.html">x</a>
+            <a href="occultism-101/what-is-occultism.html">x</a>
+            <a href="occultism-101/what-is-occultism.html">x</a>
+        </div>
+        
+    </div>      
+    <div class="dropdown">  
+        <button id="button2" class="button1 transition" onclick="location.href='../lore/index.html';">
+           
+        </button>
+        <div class="dropdown-content">
+            <a href="history/antiquity.html">x</a>
+            <a href="history/medieval-period.html">x</a>
+            <a href="history/early-modern-period.html">x</a> 
+            <a href="history/late-modern-period.html">x</a> 
+            <a href="history/contemporary-history.html">x</a>
+        </div>
+    </div>      
+    <div class="dropdown">         
+        <button id="button3" class="button1 transition" onclick="location.href='../character/index.html';">
+            
+        </button>
+        <div class="dropdown-content">
+            <a href="occultists/aleister-crowley.html">x</a>
+            <a href="occultists/apollonius-of-tyana.html">x</a>
+            <a href="occultists/etteilla.html">x</a>
+        </div>
+    </div>      
+    <div class="dropdown">  
+        <button id="button4" class="button1 transition" onclick="location.href='../rules/index.html';">
+            
+        </button>
+        <div class="dropdown-content">
+            <a href="occultism-in-culture/high-society.html">x</a>
+            <a href="occultism-in-culture/popular-culture.html">x</a>
+        </div>
+    </div>
+    <div class="dropdown">    
+        <button id="button5" class="button1 transition" onclick="location.href='index.html'">
+           
+        </button> 
+        <div class="dropdown-content">
+            <a href="creator.html">Level 0 Character Generator</a>
+            <a href="occultism-101/what-is-occultism.html">x</a>
+            <a href="occultism-101/what-is-occultism.html">x</a>
+        </div>
+        
+    </div>      
+    <div class="dropdown">
+        <button id="button6" class="button1 transition" onclick="location.href='../campaign/index.html';">
+           
+        </button>
+        <div class="dropdown-content">
+            <a href="associated-topics/folklore.html">x</a>
+            <a href="associated-topics/mythology.html">x</a>
+            <a href="associated-topics/parapsychology.html">x</a>
+        </div>
+    </div>
+</nav>
+        
+<div class="content" id="content" onscroll="myFunction()">
+    <p>Hello, and welcome to the resources area.</p>
+</div>
+<div id="exportContent">
+   
+
+<div class="biv">
+<b><p id="ability" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Ability Scores</p></b>
+
+<b><p id="ability1" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Strength</p></b>
+<div id="strength1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 300px;">
+</div>
+
+<b><p id="ability2" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Agility</p></b>
+<div id="agility1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 300px;">
+</div>
+
+<b><p id="ability3" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Stamina</p></b>
+<div id="stamina1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 300px;">
+</div>
+
+<b><p id="ability4" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Personality</p></b>
+<div id="personality1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 300px;">
+</div>
+
+<b><p id="ability5" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Intelligence</p></b>
+<div id="intelligence1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 300px;">
+</div>
+
+<b><p id="ability6" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Luck</p></b>
+<div id="luck1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 300px;">
+</div>
+
+<b><p id="lucky" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Birth Augur and Lucky Sign:</p></b>
+
+<div id="birth1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+<!-- End of biv 1 --></div>
+
+
+
+
+
+
+
+<i><p id="lucky2" style="display: none; color:white; font-size:15px; text-align:left; width: 800px;">*If a cleric, applies to all healing the cleric performs. If not a cleric, applies to all magical healing received from other sources.<br><br>
+** Luck normally affects critical hits and fumbles. On this result, the modifier is doubled for purposes of crits or fumbles.<br><br>
+^ Roll on the Blood Type Table<br><br>
+****Roll 1d10  on The Scorched Coast Mutations Table
+</p></i>
+
+
+
+
+<!-- Start of biv 2 -->
+<div class="biv">
+<b><p id="saving" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Saving Throws</p></b>
+
+<div id="a" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+<div id="b" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+<div id="c" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+<b><p id="language" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Languages</p></b>
+
+<div id="l" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+<!-- End of biv 2 --></div>
+
+
+<i><p id="l2" style="display: none; color:white; font-size:15px; text-align:left; width: 800px;">All characters know the Common tongue. For each point
+of Intelligence modifier, a character knows one additional
+language associated with the circumstances of his upbringing.
+These additional languages are established at 0-level.
+Dwarves, elves, and halflings with Int 8+ automatically
+know their racial languages as well.<br><br>
+Upon advancing to 1st level, a character may learn additional
+languages. Thieves learn a secret language called
+cant. Demi-humans learn one additional language. Wizards
+learn one additional language per point of Int modifier.<br><br>
+Additional languages commonly known include those
+of centaurs, giants, gnomes, goblins,
+and kobolds. Wizards
+may know magical languages
+and the animal
+tongues. More details
+on languages
+can be found in
+Appendix L.
+</p></i>
+
+
+
+<!-- Start of biv 3 --><div class="biv">
+
+<b><p id="hit" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Hit Points (modified by stamina)</p></b>
+<div id="hit2" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+
+<b><p id="copper" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Copper Pieces:</p></b>
+<div id="pieces1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+<b><p id="equip" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Equipment:</p></b>
+<div id="equip1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+
+<!-- End of biv 3 --></div>
+
+
+<i><p id="occup4" style="display: none; color:white; font-size:15px; text-align:left; width: 800px;">
+** A half-pint vial of holy water inflicts 1d4 damage to any un-dead creature, as well as to some demons and devils.<br><br>
+*** When ignited and thrown, oil causes 1d6 damage plus fire (DC 10 save vs. Reflex to put out or suffer additional 1d6 damage each round). One flask of oil burns for 6 hours in a lantern.<br><br>
+</p></i>
+
+
+<!-- Start of biv 4 --><div class="biv">
+
+
+
+
+<b><p id="occup" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Occupation:</p></b>
+<div id="occup1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+
+<!-- End of biv 4 --></div>
+
+
+
+<i><p id="occup2" style="display: none; color:white; font-size:15px; text-align:left; width: 800px;">* Roll 1d8 to determine farmer type: (1) potato, (2) wheat, (3) turnip, (4) corn, (5) rice, (6) parsnip, (7) radish, (8) rutabaga.<br><br>
+** Why did the chicken cross the hallway? To check for traps! In all seriousness, if the party includes more than one farmer or herder, randomly determine the
+second and subsequent farm animals for each duplicated profession with 1d6: (1) sheep, (2) goat, (3) cow, (4) duck, (5) goose, (6) mule.<br><br>
+*** Roll 1d6 to determine what’s in the cart: (1) tomatoes, (2) nothing, (3) straw, (4) your dead, (5) dirt, (6) rocks.<br><br>
+^ Roll on the Blood Type Table<br><br>
+****Roll 1d10  on The Scorched Coast Mutations Table
+</p></i>
+
+<!-- Start of biv 5 --><div class="biv">
+
+
+<b><p id="weapon" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Weapon:</p></b>
+<div id="weapon1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+<!-- End of biv 5 --></div>
+
+<i><p id="occup3" style="display: none; color:white; font-size:15px; text-align:left; width: 800px;">† If a missile fire weapon (such as sling or dart), roll 1d6 to determine number of sling stones or darts.<br><br>
+</p></i>
+
+<!-- Start of biv 6 --><div class="biv">
+
+
+<b><p id="trade" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Trade Goods:</p></b>
+<div id="trade1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+<b><p id="crit" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Crit die:</p></b>
+<div id="crit1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+</div>
+
+<b><p id="align" style="display: none; color:white; font-size:15px; text-align:left; width: 300px;">Alignment:</p></b>
+
+<div id="align1" style="color:white; font-size:15px; text-align:left; padding-left: 162px; width: 500px;">
+
+</div>
+</div>
+<!-- Start of biv 6 --></div>
+
+
+
+<!-- 
+
+   
+style="position: fixed;z-index: 1;top: 20px;left: 10px;overflow-x: hidden;padding: 8px 0;"
+
+#container{
+margin-left: 465px; /* Same width as the sidebar + left position in px */
+}
+
+
+<img src="../images/Vincini.png" height="300" width="250" id="vincini" onclick="changeImage(element)">
+-->
+
+
+
+
+
+<script type="text/javascript">
+    
+function myFunction25() {
+  document.getElementById("p4").style.display = "block"; 
+
+}
+
+    
+function black(containerid){
+    document.getElementById(containerid).style.color="black";
+}
+
+var ability = [ 
+'3 (-3)',
+'4 (-2)',
+'5 (-2)',
+'6 (-1)',
+'7 (-1)',
+'8 (-1)',
+'9 (0)',
+'10 (0)',
+'11 (0)',
+'12 (0)',
+'13 (+1)',
+'14 (+1)',
+'15 (+1)',
+'16 (+2)',
+'17 (+2)',
+'18 (+3)'
+
+ ]
+
+ var birth = [ 
+'The Tower: Spell checks.',
+'The Stronghold: Number of languages.',
+'The Sorority: Spell damage.',
+'Born on the shores: saving throw against drinking sea-water.',
+'Caravan wanderlust: Speed (each +1/-2 = + 5’/-5’ speed).',
+'Cider born: Saving throws against alcohol.',
+'Bitten by serpent: saving throws against poison.',
+'Grew up near serpents: saving throw against poisonous snakes.',
+'Serf of Countachs of Lambo: hit points gained per day.^',
+'Desert baby: Search/disable wilderness traps skill checks.',
+'Conceived at Festival of Stopping: Initiative.',
+'The Hourglass: Saving throws while in caves.',
+'Yormite marked: Saving throws against spells.',
+'Survived the Pit of Harkann: Reflex saving throws.',
+'Raised by Harpies: Unarmed attack rolls.',
+'Lighthouse child: Find secret doors checks.',
+'Laser tattooed: Turn unholy checks.',
+'Raised by Halflings: Sneaking skill checks.',
+'Touched the black monolith: Magical healing*.',
+'Saw the laser books: Searching and spotting skill checks.',
+'Lobster moon: Natural attacks. ',
+'Hermit’s student: Cleric God Approval/Disapproval.', 
+'Bird’s ear: Saving throws.',
+'Soul of  Kallitin: Saving throws against fear.', 
+'Bereft of the gods: Fumbles**.', 
+'Bastard child of Masketta Man: All attack rolls.',
+'The trident: Saving throws on dehydration.',
+'Born in Shantytown: Swimming skill checks.',
+'Totem soul: hp gained per level.',
+'Dreams of sagacity: Spells known.'
+ ]
+
+var a = [
+'Fortitude: 0 + Stamina modifier',
+
+
+]
+
+var b = [
+'Reflex: 0 + Agility modifier',
+
+
+]
+
+var c = [
+'Willpower: 0 + Personality modifier',
+
+]
+
+var language = [
+'Common + Intelligence modifer',
+
+]
+
+var health = [
+'1 + Stamina modifier',
+'2 + Stamina modifier',
+'3 + Stamina modifier',
+'4 + Stamina modifier'
+
+]
+
+var p = [
+'5',
+'6',
+'7',
+'8',
+'9',
+'10',
+'11',
+'12',
+'13',
+'14',
+'15',
+'16',
+'17',
+'18',
+'19',
+'20',
+'21',
+'22',
+'23',
+'24',
+'25',
+'26',
+'27',
+'28',
+'29',
+'30',
+'31',
+'32',
+'33',
+'34',
+'35',
+'36',
+'37',
+'38',
+'39',
+'40',
+'41',
+'42',
+'43',
+'44',
+'45',
+'46',
+'47',
+'48',
+'49',
+'50',
+'51',
+'52',
+'53',
+'54',
+'55',
+'56',
+'57',
+'58',
+'59',
+'60'
+]
+
+var equipment = [
+'Backpack ',
+'Candle',
+'Chain, 10’',
+'Chalk, 1 piece',
+'Chest, empty',
+'Crowbar',
+'Flask, empty',
+'Flint & steel',
+'Grappling hook',
+'Hammer, small',
+'Holy symbol',
+'Holy water, 1 vial**',
+'Iron spikes',
+'Lantern',
+'Mirror, hand-sized',
+'Oil, 1 flask***',
+'Pole, 10-foot',
+'Rations',
+'Rope, 50’',
+'Sack, large',
+'Sack, small',
+'Thieves’ tools',
+'Torch,',
+'Waterskin'
+]
+
+var occupation = [
+'Accountant',          
+'Border Watch',    
+'Mutant****',      
+'Radio City Pilgrim',      
+'Mutant****',              
+'Triceratops hunter',           
+'Market Stall Merchant',           
+'Totemic Shaman’s Apprentice',     
+'Horse Breeder',               
+'Scavenger',               
+'Mountain Man',           
+'Mutant Farmer****',            
+'Old Technology Scientist',          
+'Nomad Traveler',      
+'Bell City Farmer*',           
+'Dining Hall Cook',              
+'Dining Hall Waitress',            
+'Dwarven Stoneworker',           
+'Dwarven Thug',            
+'Dwarven Driver',              
+'Dwarven Road Worker',        
+'Dwarven Miner',           
+'Dwarven Sailor',              
+'Dwarven Train Conductor',       
+'Dwarven Oil Driller',           
+'Elven University Student',          
+'Elven Military Official',           
+'Elven Linguist',              
+'Elven Machinist',             
+'Elven Nomad',             
+'Elven Socialite',             
+'Elven Biologist',              
+'Elven Vulcanist',          
+'Farmer*',            
+'Order of the Egg Acolyte',            
+'Shopping Mall Worker',    
+'Old Biker',          
+'Observatory Guardian',       
+'Halfling Cannibal',        
+'Halfling Gardener',   
+'Halfling Merchant ',          
+'Halfling Bartender ',   
+'Halfling Mushroom Grower',          
+'Halfling Banker',            
+'Halfling Mercenary',            
+'Halfling Archeologist',        
+'Halfling Tailor',           
+'Merchant',         
+'Butcher',              
+'Cult scribe',         
+'Ex-Vampire Thrall^',      
+'Executioner',             
+'Fisher',              
+'Fraudulent fortune teller',         
+'Gravedigger',             
+'Magineer apprentice',         
+'Prospector',                           
+'Relic cleaner',             
+'Sand sweeper',           
+'Shaman',               
+'Slaver',                   
+'Swineherd',             
+'Trapper',             
+'Vault cracker',           
+'Wagon hand',        
+'Water Seeker',      
+'Diver',              
+'Gang member',             
+'Scout',          
+'Forrester',             
+'Mutant Nomad****',            
+'Bandit',                
+'Sage',                  
+'Tomb Raider'             
+]
+
+var weapon = [
+'Dagger',        
+'Pike',        
+'Spear', 
+'Cudgel (as staff)',
+'Pick (as club)',
+'Shortbow',
+'Longsword',
+'Animal Totem (as club)',
+'Sling',
+'Dagger',
+'Hammer (as club)',
+'Hand axe',
+'Book (as club)',
+'Spear',       
+'Short bow',
+'Sling',
+'Dagger',
+'Staff',
+'Short sword',
+'Chisel (as dagger)',
+'Rod (as spear)',
+'Pick (as club)',
+'Pan (as club)',
+'Railspike (as Mace)',
+'Hammer',
+'Longsword',
+'Club',
+'Dagger',
+'Staff',
+'Dart',
+'Sling',
+'Dagger',
+'Short sword',
+'Pitchfork (as spear)',
+'Bow',
+'Dart',       
+'Scissors (as dagger)',
+'Spear',     
+'Staff',      
+'Club',        
+'Bow',
+'Dagger', 
+'Hammer',  
+'Dart',
+'Staff',
+'Shovel (as staff)',
+'Club',
+'Bag of coins (As club)',
+'Cleaver',
+'A really big book (as club)', 
+'Tire Iron (As club)',
+'Axe',      
+'Filet knife',
+'Dagger',
+'Shovel (as staff)',
+'Metal club',
+'Rock pick',
+'Scraping knife',
+'Broom (as club)',
+'Staff',
+'Whip',
+'Staff',
+'Short bow',
+'Battering ram',
+'Rusty Axle (as shoddy lance)',
+'Staff',       
+'Knife',
+'Dagger', 
+'Shotgun (1d6 Slugs)',
+'Short sword',
+'Short sword',
+'Dagger',
+'Staff',
+'Hammer'
+]
+
+var trade = [
+'Solar Calculator',  
+'Horn',   
+'Sentient Corn',
+'Atomic Dragon Tribute',
+'Iron Ingot', 
+'Triceratops Mount',
+'Bottle of Corrosive Ooze', 
+'Dried Herbs',
+'Horse',
+'Crystal Skull',
+'Plain Garb',
+'Bottle of Olive Oil',  
+'Science Papers',
+'Camel',
+'Bag of Dead Soil',
+'Laminated Menu',
+'Roller Skates',
+'Surveying tools',
+'Hooded lantern',
+'Pewter doorknocker',  
+'Nice Painting',
+'Lantern',
+'Drills',
+'Griffin Egg',
+'Barrel of refined oil',
+'Signet ring worth 10 gp',
+'Purple Heart Metal',
+'Multilanguage Dictionary',
+'Small Metal Drone',
+'Obsidian Orb',
+'High Society Dress',
+'Preserved Seeds',  
+'Igneous Rocks',
+'Hen**',
+'Chicken', 
+'Green Papers',
+'Leather Jacket',
+'Digital Compass',  
+'Second Breakfast',    
+'Water Can',
+'Lobster trap',
+'Craft Brewed Beer',
+'Magic Mushroom',
+'100 bottle caps',
+'Talking Forest Animal',
+'Small Lizard',
+'Yormite Clothing',
+'1d4 Random Items ',
+'Hunk of "longpig"',
+'Ink and paper',
+'Signed photo of a Count',
+'Head of an innocent',        
+'String of fish',
+'Pulsating old tech',
+'Coffin (Empty)',
+'Beeping trinket',
+'Old world scrap',                
+'Old Clay Pot', 
+'Glass chunk',
+'"Magic Herbs"',
+'Manacles', 
+'Mutant Pig',
+'d3 Shaggy Smelly Pelts',
+'Shiny door knob',
+'Jar of oil',
+'Divining rods',
+'Pearl',
+'Tire armor (As Leather)',
+'Map of the area',
+'White Chalk',
+'Terrarium',
+'Boat',
+'Book of Lore',   
+'Sun Glasses '
+]
+
+var crit = [
+'1d4/ Crit Table I',
+]
+
+var align = [
+'Law',
+'Chaos',
+'Neutral'
+]
+
+function strength1() {
+var randomNumber = Math.floor(Math.random() * (ability.length));
+document.getElementById("strength1",).innerHTML = ability[randomNumber];
+
+}
+
+function agility1() {
+var randomNumber = Math.floor(Math.random() * (ability.length));
+document.getElementById("agility1",).innerHTML = ability[randomNumber];
+
+}
+
+function stamina1() {
+var randomNumber = Math.floor(Math.random() * (ability.length));
+document.getElementById("stamina1",).innerHTML = ability[randomNumber];
+
+}
+
+function personality1() {
+var randomNumber = Math.floor(Math.random() * (ability.length));
+document.getElementById("personality1",).innerHTML = ability[randomNumber];
+
+}
+
+function intelligence1() {
+var randomNumber = Math.floor(Math.random() * (ability.length));
+document.getElementById("intelligence1",).innerHTML = ability[randomNumber];
+
+}
+
+function luck1() {
+var randomNumber = Math.floor(Math.random() * (ability.length));
+document.getElementById("luck1",).innerHTML = ability[randomNumber];
+
+}
+
+function birth1() {
+var randomNumber = Math.floor(Math.random() * (birth.length));
+document.getElementById("birth1",).innerHTML = birth[randomNumber];
+
+}
+
+function saving1() {
+var randomNumber = Math.floor(Math.random() * (a.length));
+document.getElementById("a",).innerHTML = a[randomNumber];
+
+}
+
+function saving2() {
+var randomNumber = Math.floor(Math.random() * (b.length));
+document.getElementById("b",).innerHTML = b[randomNumber];
+
+}
+
+function saving3() {
+var randomNumber = Math.floor(Math.random() * (c.length));
+document.getElementById("c",).innerHTML = c[randomNumber];
+
+}
+
+function l() {
+var randomNumber = Math.floor(Math.random() * (language.length));
+document.getElementById("l",).innerHTML = language[randomNumber];
+
+}
+
+function hit2() {
+var randomNumber = Math.floor(Math.random() * (health.length));
+document.getElementById("hit2",).innerHTML = health[randomNumber];
+
+}
+
+function pieces1() {
+var randomNumber = Math.floor(Math.random() * (p.length));
+document.getElementById("pieces1",).innerHTML = p[randomNumber];
+
+}
+
+function equip1() {
+var randomNumber = Math.floor(Math.random() * (equipment.length));
+document.getElementById("equip1",).innerHTML = equipment[randomNumber];
+
+}
+
+function occup1() {
+var randomNumber = Math.floor(Math.random() * (occupation.length));
+document.getElementById("occup1",).innerHTML = occupation[randomNumber];
+var randomNumber2 = Math.floor(Math.random() * (weapon.length));
+document.getElementById("weapon1",).innerHTML = weapon[randomNumber];
+var randomNumber3 = Math.floor(Math.random() * (trade.length));
+document.getElementById("trade1",).innerHTML = trade[randomNumber];
+}
+
+function crit1() {
+var randomNumber = Math.floor(Math.random() * (crit.length));
+document.getElementById("crit1",).innerHTML = crit[randomNumber];
+
+}
+
+function align1() {
+var randomNumber = Math.floor(Math.random() * (align.length));
+document.getElementById("align1",).innerHTML = align[randomNumber];
+
+}
+
+
+function myFunction() {
+  document.getElementById("ability").style.display = "block";
+}
+
+function myFunction1() {
+  document.getElementById("ability1").style.display = "block";
+}
+
+function myFunction2() {
+  document.getElementById("ability2").style.display = "block";
+}
+
+function myFunction3() {
+  document.getElementById("ability3").style.display = "block";
+}
+
+function myFunction4() {
+  document.getElementById("ability4").style.display = "block";
+}
+
+function myFunction5() {
+  document.getElementById("ability5").style.display = "block";
+}
+
+function myFunction6() {
+  document.getElementById("ability6").style.display = "block";
+}
+
+function myFunction7() {
+  document.getElementById("lucky").style.display = "block";
+}
+
+function myFunction8() {
+  document.getElementById("lucky2").style.display = "block";
+}
+
+function myFunction9() {
+  document.getElementById("saving").style.display = "block";
+}
+
+function myFunction10() {
+  document.getElementById("language").style.display = "block";
+}
+
+function myFunction11() {
+  document.getElementById("l2").style.display = "block";
+}
+
+function myFunction12() {
+  document.getElementById("hit").style.display = "block";
+}
+
+function myFunction13() {
+  document.getElementById("copper").style.display = "block";
+}
+
+function myFunction14() {
+  document.getElementById("equip").style.display = "block";
+}
+
+function myFunction15() {
+  document.getElementById("occup").style.display = "block";
+}
+
+function myFunction16() {
+  document.getElementById("weapon").style.display = "block";
+}
+
+function myFunction17() {
+  document.getElementById("trade").style.display = "block";
+}
+
+function myFunction18() {
+  document.getElementById("occup2").style.display = "block";
+}
+
+function myFunction19() {
+  document.getElementById("occup3").style.display = "block";
+}
+
+function myFunction20() {
+  document.getElementById("occup4").style.display = "block";
+}
+
+function myFunction21() {
+  document.getElementById("crit").style.display = "block";
+}
+
+function myFunction22() {
+  document.getElementById("align").style.display = "block";
+}
+
+function myFunction23() {
+  document.getElementById("p3").style.display = "block"; 
+
+}
+
+function myFunction24() {
+  document.getElementById("p2").style.display = "block"; 
+
+}
+
+function CopyToClipboard(containerid) {
+  if (document.selection) {
+    var range = document.body.createTextRange();
+    range.moveToElementText(document.getElementById(containerid));
+    range.select().createTextRange();
+    document.execCommand("copy");
+  } else if (window.getSelection) {
+    var range = document.createRange();
+    range.selectNode(document.getElementById(containerid));
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+  }
+}
+
+
+function Export2Doc(element, filename = ''){
+    var preHtml = "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title></head><body>";
+    var postHtml = "</body></html>";
+    var html = preHtml+document.getElementById(element).innerHTML+postHtml;
+    var blob = new Blob(['\ufeff', html],{
+        type: 'application/msword'
+    });
+    
+    var url = 'data:application/vnd.ms-word;charset=utf-8,' + encodeURIComponent(html)
+
+    filename = filename?filename+'.doc': 'document.doc';
+
+    var downloadLink = document.createElement("a");
+    document.body.appendChild(downloadLink);
+    
+    value=document.body.style.color
+    if(navigator.msSaveOrOpenBlob){
+        navigator.msSaveOrOpenBlob(blob, filename);
+    }else{
+        downloadLink.href = url;
+
+        downloadLink.download = filename;
+
+        downloadLink.click();
+    }
+    
+    document.body.removeChild(downloadLink);
+  
+}
+
+
+
+</script>
+<script src="../dist/clipboard.min.js"></script>
+<script src="../dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn', {
+        target: function() {
+            return document.querySelector(''); 
+        }
+    });
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
+<!-- Type in div to enable copy/paste in Chrome -->
+
+    
+    </div>
+<div class="wrapper" style="float: left; position: fixed;z-index: 1;top: 20px;left: -380px; overflow-x: hidden;padding: 8px 0; display: block; opacity: 1!important;">
+
+<button id="p1" onclick="myFunction1(); myFunction(); myFunction2(); myFunction3(); myFunction4(); myFunction5(); myFunction6(); myFunction7(); myFunction8(); myFunction9(); myFunction10(); myFunction11(); myFunction12(); myFunction13(); myFunction14(); myFunction15(); myFunction16(); myFunction17(); myFunction18(); myFunction19(); myFunction20(); myFunction21(); myFunction22(); myFunction23(); myFunction24(); myFunction25(); strength1(); agility1(); stamina1(); personality1(); intelligence1(); luck1(); birth1(); saving1(); saving2(); saving3(); l(); hit2(); pieces1(); equip1(); occup1(); crit1(); align1();"></button>
+
+<button class="btn" id="p3" style="display: none;" onclick="CopyToClipboard('title'); CopyToClipboard('ability'); CopyToClipboard('ability1'); CopyToClipboard('strength1'); CopyToClipboard('ability2'); CopyToClipboard('agility1'); CopyToClipboard('ability3'); CopyToClipboard('stamina1'); CopyToClipboard('ability4'); CopyToClipboard('personality1'); CopyToClipboard('ability5'); CopyToClipboard('intelligence1'); CopyToClipboard('ability6'); CopyToClipboard('luck1'); CopyToClipboard('lucky'); CopyToClipboard('birth1'); CopyToClipboard('saving'); CopyToClipboard('a'); CopyToClipboard('b'); CopyToClipboard('c'); CopyToClipboard('language'); CopyToClipboard('l'); CopyToClipboard('hit'); CopyToClipboard('hit2'); CopyToClipboard('copper'); CopyToClipboard('pieces1'); CopyToClipboard('equip'); CopyToClipboard('equip1'); CopyToClipboard('occup'); CopyToClipboard('occup1'); CopyToClipboard('weapon'); CopyToClipboard('weapon1'); CopyToClipboard('trade'); CopyToClipboard('trade1'); CopyToClipboard('crit'); CopyToClipboard('crit1'); CopyToClipboard('align'); CopyToClipboard('align1');"></button>
+    
+<button id="p4" style="display: none;" onclick="black('ability'); black('ability1'); black('strength1'); black('ability2'); black('agility1'); black('ability3'); black('stamina1'); black('ability4'); black('personality1'); black('ability5'); black('intelligence1'); black('ability6'); black('luck1'); black('lucky'); black('birth1'); black('saving'); black('a'); black('b'); black('c'); black('language'); black('l'); black('hit'); black('hit2'); black('copper'); black('pieces1'); black('equip'); black('equip1'); black('occup'); black('occup1'); black('weapon'); black('weapon1'); black('trade'); black('trade1'); black('crit'); black('crit1'); black('align'); black('align1');"></button>
+
+<button id="p2" style="display: none;" onclick="Export2Doc('exportContent', 'Level 0 Character');"></button>
+  
+</div>
+
+    <footer id="necessary">
+<ul id="footer_nav">
+    <li>
+        <a class="foothov transition" href="../home.html">Home</a>
+         |
+    </li>
+    <li>
+        <a class="foothov transition" href="../setting/index.html">Setting</a>
+         |
+    </li>
+    <li>
+        <a class="foothov transition" href="../lore/index.html">Lore</a>
+         |
+    </li>
+    <li>
+        <a class="foothov transition" href="../character/index.html">Character</a>
+         |
+    </li>
+    <li>
+        <a class="foothov transition" href="../rules/index.html">Rules</a>
+         |
+    </li>
+    <li>
+        <a class="foothov transition" href="index.html">Resources</a>
+         |
+    </li>
+    <li>
+        <a class="foothov transition" href="../campaign/index.html">Campaign</a>
+    </li>
+</ul> 
+<a id="top-button" href="#top">Back to Top</a>
+ </footer>
+  </body>
+</html>
+
+
+
+

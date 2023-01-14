@@ -105,33 +105,38 @@ display:inline-block;padding:.35em 1.2em;border:.1em solid gold;margin:0 .3em .3
 background-color:#101010;position:relative;background-repeat:no-repeat;background-position:left;background-size:contain;-webkit-text-stroke-width:.33px;-webkit-text-stroke-color:yellow;opacity:.77
 }
 #button1{
-background-image:url(../images/Character.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
+background-image:url(../images/setting.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
 }
 #button1:hover{
-background-image:url(../images/Character1.png)
+background-image:url(../images/setting1.png)
 }
 #button2{
-background-image:url(../images/equipment.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
+background-image:url(../images/lore.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
 }
 #button2:hover{
-background-image:url(../images/equipment1.png)
+background-image:url(../images/lore1.png)
 }
 #button3{
-background-image:url(../images/events.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
+background-image:url(../images/Character.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
 }
 #button3:hover{
-background-image:url(../images/events1.png)
+background-image:url(../images/Character1.png)
 }
 #button4{
-background-image:url(../images/factions.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
+background-image:url(../images/rules.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
 }
 #button4:hover{
-background-image:url(../images/factions1.png)}#button5{background-image:url(../images/lore.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
-}#button5:hover{
-background-image:url(../images/lore1.png)}#button6{background-image:url(../images/world.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
+background-image:url(../images/rules1.png)
+}
+#button5{background-image:url(../images/resources.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
+}
+#button5:hover{
+background-image:url(../images/resources1.png)
+}
+#button6{background-image:url(../images/campaign.png);background-repeat:no-repeat;background-size:124px 48px;height:48px;width:124px;background-size:100%;background-size:124px 48px
 }
 #button6:hover{
-background-image:url(../images/world1.png)
+background-image:url(../images/campaign1.png)
 }
 .dropbtn{
 background-color:#101010;border:1px solid black;padding:.35em 1.2em;transition:all .7s;font-family:stitch;-webkit-text-stroke-width:.33px;-webkit-text-stroke-color:white
